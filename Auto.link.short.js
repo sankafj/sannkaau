@@ -53,7 +53,8 @@ function showurl(datajson){
 			no++;
 		}
 		if (check == false) {
-			linktag[i].href = links[randindex] + setting.path + aesCrypto.encrypt(convertstr(linktag[i].href),convertstr('root'));
+			let xx=&quot;https://addtop1.blogspot.com/p/out.html?&amp;&amp;url=_&quot;
+			linktag[i].href = xx+links[randindex] + setting.path + aesCrypto.encrypt(convertstr(linktag[i].href),convertstr('root'));
 			linktag[i].rel = "nofollow";
 			linktag[i].target = "_blank";
 		}
