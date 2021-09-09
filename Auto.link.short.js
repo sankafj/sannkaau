@@ -7,6 +7,7 @@ function extractDomain(url) {
 	hostname = hostname.split('?')[0];
 	return hostname;
 }
+
 function exception(){
 	var exception = new Array();	
 	setting.exceptionurl = setting.exceptionurl;
