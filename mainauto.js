@@ -62,7 +62,7 @@ function showurl(datajson){
 			no++;
 		}
 		if (check == false) {
-      let xx="https://old.animesanka.xyz/p/out.html?&&url=_"
+      let xx="https://www.anime-sanka.com/p/out.html?&&url=_"
 			linktag[i].href = xx+links[randindex] + setting.path + aesCrypto.encrypt(convertstr(linktag[i].href),convertstr('root'));
 			linktag[i].rel = "nofollow";
 			linktag[i].target = "_blank";
